@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap");@import url(./common.css);
+
+.custom__nav{
+    background-color: rgb(116, 100, 100) !important;
+}
+
+.navbar_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#banner__part {
+  padding: 280px 0 108px;
+  background: url("../images/banner.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 118% 121%;
+}
+
+.banner__subtitle {
+  color: var(--primary_text_color);
+  font-family: var(--oswald);
+  font-size: 27px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  letter-spacing: 2.7px;
+}
+
+.banner__title {
+  color: var(--primary_text_color);
+  font-family: var(--oswald);
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.banner__summary {
+  color: var(--primary_text_color);
+  font-family: var(--oswald);
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 523px;
+  margin-bottom: 48px;
+}
+
+.banner__button {
+  border-bottom: none;
+  padding: 13px 24px;
+  color: #121212;
+  font-family: var(--oswald);
+  font-size: 16px;
+  font-weight: 400;
+  background-color: var(--primary_text_color);
+  cursor: pointer;
+  transition: all linear 0.3s;
+
+}
+
